@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeLeaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" th:href="@{/css/style.css}" type="text/css">
+  <title>Your Landing Page</title>
+</head>
+<body>
+	 <div class="taskbar">
+    <a href="http://localhost:9090">Home</a>
+    <a href="#">About</a>
+    <a th:href="@{/lms/register}">Register</a>
+    <a th:href="@{/lms/login}">Login</a>
+    <a th:href="@{/lms/login}">ViewCourses</a>
+    <a href="#">Settings</a>
+  </div>
+  <!-- Add your content here -->
+     <h1>SkillQuarry</h1>
+        <h4>@India's The Best Learning Inistitute......!</h4>
+       
+     <a th:href="@{/lms/login}"><button class="btn1">Login</button></a>
+    <a th:href="@{/lms/register}"><button class="btn2" >register</button></a>
+ 
+</body>
+</html>
+

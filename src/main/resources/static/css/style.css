@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/* Reset some default styles for better consistency */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color:skyblue;
+    color: #333;
+    background-image: url("/images/logo3.png"); /* Replace "your-background-image.jpg" with the correct path to your background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.taskbar {
+      background-color:  darkslategray;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .taskbar a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+
+    .taskbar a:hover {
+      color: orange;
+    }
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    color:darkslateblue;
+    margin-top:5px;
+}
+h4{
+	margin-left:450px;
+	color:darkolivegreen;
+	margin-top: 5px;
+}
+
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+  .btn1
+   {
+    
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    height: 20px;
+    width:50px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    display:inline-block;
+    margin-left:500px;
+    margin-top:270px;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:30px;
+    padding-right:60px;
+    
+  }
+
+  .btn2{
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    display: inline-block;
+    margin-left:20px;
+     padding-left:20px;
+    padding-top:10px;
+    padding-bottom:13px;
+    padding-right:20px;
+  }
+  
+  
+.button1:hover,
+.button2:hover {
+    background-color: #0056b3;
+    /* Add cursor pointer on hover for better UX */
+}
+
+/* Additional styles for mobile responsiveness */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+    .button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
